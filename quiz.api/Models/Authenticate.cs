@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace quiz_be.Models
+namespace quiz.api.Models
 {
     public class Authenticate
     {

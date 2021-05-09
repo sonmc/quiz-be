@@ -1,0 +1,9 @@
+D:\QuizProject\quiz-be\quiz.constant\bin\Debug\netcoreapp3.1\quiz.constant.deps.json
+D:\QuizProject\quiz-be\quiz.constant\bin\Debug\netcoreapp3.1\quiz.constant.dll
+D:\QuizProject\quiz-be\quiz.constant\bin\Debug\netcoreapp3.1\quiz.constant.pdb
+D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.csprojAssemblyReference.cache
+D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.AssemblyInfoInputs.cache
+D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.AssemblyInfo.cs
+D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.csproj.CoreCompileInputs.cache
+D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.dll
+D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.pdb

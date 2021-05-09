@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\quiz.constant\quiz.constant.csproj" />
+    <ProjectReference Include="..\quiz.entities\quiz.entities.csproj" />
+    <ProjectReference Include="..\quiz.helpers\quiz.helpers.csproj" />
+    <ProjectReference Include="..\quiz.repositories\quiz.repositories.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -2,16 +2,16 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using quiz_be.Controllers;
 using quiz.entities;
-using quiz_be.Services;
+using quiz.services;
 
 namespace quiz_api.Controllers
 {
     [Authorize]
     [ApiController]
     [Route("api/exams")]
-    public class ExamController : GeneralController<User, IUserService>
+    public class ExamController : GeneralController<Exam, IExamService>
     {
-        public ExamController(IUserService service) : base(service)
+        public ExamController(IExamService service) : base(service)
         {
 
         }

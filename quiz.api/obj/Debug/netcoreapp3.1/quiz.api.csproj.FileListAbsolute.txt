@@ -1,8 +1,8 @@
+D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\quiz.api.csprojAssemblyReference.cache
 D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\quiz.api.AssemblyInfoInputs.cache
 D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\quiz.api.AssemblyInfo.cs
 D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\quiz.api.csproj.CoreCompileInputs.cache
 D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\quiz.api.MvcApplicationPartsAssemblyInfo.cache
-D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\quiz.api.csprojAssemblyReference.cache
 D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\appsettings.json
 D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.api.exe
@@ -111,8 +111,16 @@ D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysi
 D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.constant.dll
 D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.entities.dll
+D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.helpers.dll
+D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.repositories.dll
+D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.services.dll
+D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.constant.pdb
 D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.entities.pdb
+D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.helpers.pdb
+D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.repositories.pdb
+D:\QuizProject\quiz-be\quiz.api\bin\Debug\netcoreapp3.1\quiz.services.pdb
 D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\staticwebassets\quiz.api.StaticWebAssets.Manifest.cache
 D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\staticwebassets\quiz.api.StaticWebAssets.xml
 D:\QuizProject\quiz-be\quiz.api\obj\Debug\netcoreapp3.1\scopedcss\bundle\quiz.api.styles.css

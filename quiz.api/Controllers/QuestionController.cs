@@ -2,16 +2,16 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using quiz_be.Controllers;
 using quiz.entities;
-using quiz_be.Services;
+using quiz.services;
 
 namespace quiz_api.Controllers
 {
     [Authorize]
     [ApiController]
     [Route("api/questions")]
-    public class QuestionController : GeneralController<User, IUserService>
+    public class QuestionController : GeneralController<Question, IQuestionService>
     {
-        public QuestionController(IUserService service) : base(service)
+        public QuestionController(IQuestionService service) : base(service)
         {
 
         }

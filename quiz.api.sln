@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quiz.api", "quiz.api\quiz.api.csproj", "{68AA217B-356B-4F8E-99F7-68254220493F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quiz.entities", "quiz.entities\quiz.entities.csproj", "{7E1DFDD1-6930-4CD0-84DA-289388BB813F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiz.entities", "quiz.entities\quiz.entities.csproj", "{7E1DFDD1-6930-4CD0-84DA-289388BB813F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiz.services", "quiz.services\quiz.services.csproj", "{0E30C4A6-CCE1-4225-841B-080B2CB8CD16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiz.repositories", "quiz.repositories\quiz.repositories.csproj", "{0D2506D9-48BA-4C3C-8327-0234ACA58D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiz.constant", "quiz.constant\quiz.constant.csproj", "{77D3ED93-F907-43AD-91AA-D57D6FC880AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiz.helpers", "quiz.helpers\quiz.helpers.csproj", "{3BE9B3F0-44BD-4A00-A431-7510396409AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiz.api", "quiz.api\quiz.api.csproj", "{FD5805FE-824E-4F5C-B300-798228DF4A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{68AA217B-356B-4F8E-99F7-68254220493F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68AA217B-356B-4F8E-99F7-68254220493F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68AA217B-356B-4F8E-99F7-68254220493F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68AA217B-356B-4F8E-99F7-68254220493F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E1DFDD1-6930-4CD0-84DA-289388BB813F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E1DFDD1-6930-4CD0-84DA-289388BB813F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E1DFDD1-6930-4CD0-84DA-289388BB813F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E1DFDD1-6930-4CD0-84DA-289388BB813F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E30C4A6-CCE1-4225-841B-080B2CB8CD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E30C4A6-CCE1-4225-841B-080B2CB8CD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E30C4A6-CCE1-4225-841B-080B2CB8CD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E30C4A6-CCE1-4225-841B-080B2CB8CD16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2506D9-48BA-4C3C-8327-0234ACA58D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2506D9-48BA-4C3C-8327-0234ACA58D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2506D9-48BA-4C3C-8327-0234ACA58D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2506D9-48BA-4C3C-8327-0234ACA58D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D3ED93-F907-43AD-91AA-D57D6FC880AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D3ED93-F907-43AD-91AA-D57D6FC880AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D3ED93-F907-43AD-91AA-D57D6FC880AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D3ED93-F907-43AD-91AA-D57D6FC880AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE9B3F0-44BD-4A00-A431-7510396409AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE9B3F0-44BD-4A00-A431-7510396409AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE9B3F0-44BD-4A00-A431-7510396409AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE9B3F0-44BD-4A00-A431-7510396409AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5805FE-824E-4F5C-B300-798228DF4A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5805FE-824E-4F5C-B300-798228DF4A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5805FE-824E-4F5C-B300-798228DF4A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5805FE-824E-4F5C-B300-798228DF4A66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

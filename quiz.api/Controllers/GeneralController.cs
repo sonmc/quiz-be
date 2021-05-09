@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using quiz_be.Constant;
-using quiz_be.Services;
+using quiz.constant;
+using quiz.services;
 
 namespace quiz_be.Controllers
 {

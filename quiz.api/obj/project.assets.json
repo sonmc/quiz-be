@@ -2129,14 +2129,69 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "quiz.constant/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/quiz.constant.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/quiz.constant.dll": {}
+        }
+      },
       "quiz.entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.3"
+        },
         "compile": {
           "bin/placeholder/quiz.entities.dll": {}
         },
         "runtime": {
           "bin/placeholder/quiz.entities.dll": {}
+        }
+      },
+      "quiz.helpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "quiz.entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/quiz.helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/quiz.helpers.dll": {}
+        }
+      },
+      "quiz.repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "quiz.entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/quiz.repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/quiz.repositories.dll": {}
+        }
+      },
+      "quiz.services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "quiz.constant": "1.0.0",
+          "quiz.entities": "1.0.0",
+          "quiz.helpers": "1.0.0",
+          "quiz.repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/quiz.services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/quiz.services.dll": {}
         }
       }
     }
@@ -7084,10 +7139,30 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "quiz.constant/1.0.0": {
+      "type": "project",
+      "path": "../quiz.constant/quiz.constant.csproj",
+      "msbuildProject": "../quiz.constant/quiz.constant.csproj"
+    },
     "quiz.entities/1.0.0": {
       "type": "project",
       "path": "../quiz.entities/quiz.entities.csproj",
       "msbuildProject": "../quiz.entities/quiz.entities.csproj"
+    },
+    "quiz.helpers/1.0.0": {
+      "type": "project",
+      "path": "../quiz.helpers/quiz.helpers.csproj",
+      "msbuildProject": "../quiz.helpers/quiz.helpers.csproj"
+    },
+    "quiz.repositories/1.0.0": {
+      "type": "project",
+      "path": "../quiz.repositories/quiz.repositories.csproj",
+      "msbuildProject": "../quiz.repositories/quiz.repositories.csproj"
+    },
+    "quiz.services/1.0.0": {
+      "type": "project",
+      "path": "../quiz.services/quiz.services.csproj",
+      "msbuildProject": "../quiz.services/quiz.services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7099,7 +7174,11 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.2",
       "Pomelo.EntityFrameworkCore.MySql >= 3.1.1",
       "System.IdentityModel.Tokens.Jwt >= 5.6.0",
-      "quiz.entities >= 1.0.0"
+      "quiz.constant >= 1.0.0",
+      "quiz.entities >= 1.0.0",
+      "quiz.helpers >= 1.0.0",
+      "quiz.repositories >= 1.0.0",
+      "quiz.services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7129,8 +7208,20 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "D:\\QuizProject\\quiz-be\\quiz.constant\\quiz.constant.csproj": {
+              "projectPath": "D:\\QuizProject\\quiz-be\\quiz.constant\\quiz.constant.csproj"
+            },
             "D:\\QuizProject\\quiz-be\\quiz.entities\\quiz.entities.csproj": {
               "projectPath": "D:\\QuizProject\\quiz-be\\quiz.entities\\quiz.entities.csproj"
+            },
+            "D:\\QuizProject\\quiz-be\\quiz.helpers\\quiz.helpers.csproj": {
+              "projectPath": "D:\\QuizProject\\quiz-be\\quiz.helpers\\quiz.helpers.csproj"
+            },
+            "D:\\QuizProject\\quiz-be\\quiz.repositories\\quiz.repositories.csproj": {
+              "projectPath": "D:\\QuizProject\\quiz-be\\quiz.repositories\\quiz.repositories.csproj"
+            },
+            "D:\\QuizProject\\quiz-be\\quiz.services\\quiz.services.csproj": {
+              "projectPath": "D:\\QuizProject\\quiz-be\\quiz.services\\quiz.services.csproj"
             }
           }
         }

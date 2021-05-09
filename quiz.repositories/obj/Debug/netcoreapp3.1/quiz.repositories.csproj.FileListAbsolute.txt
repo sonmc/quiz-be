@@ -1,0 +1,12 @@
+D:\QuizProject\quiz-be\quiz.repositories\bin\Debug\netcoreapp3.1\quiz.repositories.deps.json
+D:\QuizProject\quiz-be\quiz.repositories\bin\Debug\netcoreapp3.1\quiz.repositories.dll
+D:\QuizProject\quiz-be\quiz.repositories\bin\Debug\netcoreapp3.1\quiz.repositories.pdb
+D:\QuizProject\quiz-be\quiz.repositories\bin\Debug\netcoreapp3.1\quiz.entities.dll
+D:\QuizProject\quiz-be\quiz.repositories\bin\Debug\netcoreapp3.1\quiz.entities.pdb
+D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.csprojAssemblyReference.cache
+D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.AssemblyInfoInputs.cache
+D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.AssemblyInfo.cs
+D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.csproj.CoreCompileInputs.cache
+D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.csproj.CopyComplete
+D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.dll
+D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.pdb

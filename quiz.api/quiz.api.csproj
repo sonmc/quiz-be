@@ -2,10 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>quiz_api</RootNamespace>
   </PropertyGroup>
-  <ItemGroup> 
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\quiz.constant\quiz.constant.csproj" />
+    <ProjectReference Include="..\quiz.entities\quiz.entities.csproj" />
+    <ProjectReference Include="..\quiz.helpers\quiz.helpers.csproj" />
+    <ProjectReference Include="..\quiz.repositories\quiz.repositories.csproj" />
+    <ProjectReference Include="..\quiz.services\quiz.services.csproj" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3"></PackageReference> 
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1"></PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
@@ -14,8 +19,5 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\quiz.entities\quiz.entities.csproj" />
-  </ItemGroup> 
 
 </Project>

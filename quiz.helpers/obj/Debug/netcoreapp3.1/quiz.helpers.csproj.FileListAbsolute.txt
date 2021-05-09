@@ -1,0 +1,12 @@
+D:\QuizProject\quiz-be\quiz.helpers\bin\Debug\netcoreapp3.1\quiz.helpers.deps.json
+D:\QuizProject\quiz-be\quiz.helpers\bin\Debug\netcoreapp3.1\quiz.helpers.dll
+D:\QuizProject\quiz-be\quiz.helpers\bin\Debug\netcoreapp3.1\quiz.helpers.pdb
+D:\QuizProject\quiz-be\quiz.helpers\bin\Debug\netcoreapp3.1\quiz.entities.dll
+D:\QuizProject\quiz-be\quiz.helpers\bin\Debug\netcoreapp3.1\quiz.entities.pdb
+D:\QuizProject\quiz-be\quiz.helpers\obj\Debug\netcoreapp3.1\quiz.helpers.csprojAssemblyReference.cache
+D:\QuizProject\quiz-be\quiz.helpers\obj\Debug\netcoreapp3.1\quiz.helpers.AssemblyInfoInputs.cache
+D:\QuizProject\quiz-be\quiz.helpers\obj\Debug\netcoreapp3.1\quiz.helpers.AssemblyInfo.cs
+D:\QuizProject\quiz-be\quiz.helpers\obj\Debug\netcoreapp3.1\quiz.helpers.csproj.CoreCompileInputs.cache
+D:\QuizProject\quiz-be\quiz.helpers\obj\Debug\netcoreapp3.1\quiz.helpers.csproj.CopyComplete
+D:\QuizProject\quiz-be\quiz.helpers\obj\Debug\netcoreapp3.1\quiz.helpers.dll
+D:\QuizProject\quiz-be\quiz.helpers\obj\Debug\netcoreapp3.1\quiz.helpers.pdb

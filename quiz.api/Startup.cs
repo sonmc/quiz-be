@@ -6,16 +6,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
- 
-using quiz_api.Repositories.RepositoryImpl;
-using quiz_be.Entities;
-using quiz_be.Helpers;
-using quiz_be.Repositories;
-using quiz_be.Services;
-using quiz_be.Services.ServiceImpl;
+using quiz.entities;
+using quiz.helpers;
+using quiz.repositories;
+using quiz.repositories.RepositoryImpl;
+using quiz.services;
+using quiz.services.ServiceImpl;
 using System.Text;
 
-namespace quiz_be
+namespace quiz.api
 {
     public class Startup
     {
@@ -34,7 +33,7 @@ namespace quiz_be
 
             // configure strongly typed settings objects
             var appSettingsSection = Configuration.GetSection("AppSettings");
-            services.Configure<AppSettings>(appSettingsSection); 
+            services.Configure<AppSettings>(appSettingsSection);
             // configure jwt authentication
             var appSettings = appSettingsSection.Get<AppSettings>();
             var key = Encoding.ASCII.GetBytes(appSettings.Secret);
@@ -54,11 +53,23 @@ namespace quiz_be
                     ValidateIssuer = false,
                     ValidateAudience = false
                 };
-            }); 
+            });
             services.AddDbContext<DataContext>(option => option.UseMySql(appSettings.DefaultConnection));
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepositoryImpl>();
+
+            services.AddScoped<IExamService, ExamService>();
+            services.AddScoped<IExamRepository, ExamRepositoryImpl>();
+
+            services.AddScoped<IAnswerService, AnswerService>();
+            services.AddScoped<IAnswerRepository, AnswerRepositoryImpl>();
+
+            services.AddScoped<IQuestionService, QuestionService>();
+            services.AddScoped<IQuestionRepository, QuestionRepositoryImpl>();
+
+            services.AddScoped<IGroupService, GroupService>();
+            services.AddScoped<IGroupRepository, GroupRepositoryImpl>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
