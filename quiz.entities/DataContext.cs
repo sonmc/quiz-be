@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.EntityFrameworkCore; 
+
 namespace quiz.entities
 {
     public class DataContext : DbContext

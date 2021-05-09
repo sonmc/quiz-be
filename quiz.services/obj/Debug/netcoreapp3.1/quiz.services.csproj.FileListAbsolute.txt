@@ -16,3 +16,6 @@ D:\QuizProject\quiz-be\quiz.services\bin\Debug\netcoreapp3.1\quiz.repositories.p
 D:\QuizProject\quiz-be\quiz.services\obj\Debug\netcoreapp3.1\quiz.services.csproj.CopyComplete
 D:\QuizProject\quiz-be\quiz.services\obj\Debug\netcoreapp3.1\quiz.services.dll
 D:\QuizProject\quiz-be\quiz.services\obj\Debug\netcoreapp3.1\quiz.services.pdb
+D:\QuizProject\quiz-be\quiz.services\bin\Debug\netcoreapp3.1\quiz.services.runtimeconfig.json
+D:\QuizProject\quiz-be\quiz.services\bin\Debug\netcoreapp3.1\quiz.services.runtimeconfig.dev.json
+D:\QuizProject\quiz-be\quiz.services\obj\Debug\netcoreapp3.1\quiz.services.genruntimeconfig.cache

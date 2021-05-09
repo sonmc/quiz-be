@@ -10,3 +10,6 @@ D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositori
 D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.csproj.CopyComplete
 D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.dll
 D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.pdb
+D:\QuizProject\quiz-be\quiz.repositories\bin\Debug\netcoreapp3.1\quiz.repositories.runtimeconfig.json
+D:\QuizProject\quiz-be\quiz.repositories\bin\Debug\netcoreapp3.1\quiz.repositories.runtimeconfig.dev.json
+D:\QuizProject\quiz-be\quiz.repositories\obj\Debug\netcoreapp3.1\quiz.repositories.genruntimeconfig.cache

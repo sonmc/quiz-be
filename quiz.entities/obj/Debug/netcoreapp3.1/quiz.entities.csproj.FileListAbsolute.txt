@@ -7,3 +7,6 @@ D:\QuizProject\quiz-be\quiz.entities\bin\Debug\netcoreapp3.1\quiz.entities.dll
 D:\QuizProject\quiz-be\quiz.entities\bin\Debug\netcoreapp3.1\quiz.entities.pdb
 D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.dll
 D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.pdb
+D:\QuizProject\quiz-be\quiz.entities\bin\Debug\netcoreapp3.1\quiz.entities.runtimeconfig.json
+D:\QuizProject\quiz-be\quiz.entities\bin\Debug\netcoreapp3.1\quiz.entities.runtimeconfig.dev.json
+D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.genruntimeconfig.cache

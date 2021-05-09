@@ -7,3 +7,6 @@ D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.Assem
 D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.csproj.CoreCompileInputs.cache
 D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.dll
 D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.pdb
+D:\QuizProject\quiz-be\quiz.constant\bin\Debug\netcoreapp3.1\quiz.constant.runtimeconfig.json
+D:\QuizProject\quiz-be\quiz.constant\bin\Debug\netcoreapp3.1\quiz.constant.runtimeconfig.dev.json
+D:\QuizProject\quiz-be\quiz.constant\obj\Debug\netcoreapp3.1\quiz.constant.genruntimeconfig.cache

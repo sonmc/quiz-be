@@ -54,7 +54,7 @@ namespace quiz.api
                     ValidateAudience = false
                 };
             });
-            services.AddDbContext<DataContext>(option => option.UseMySql(appSettings.DefaultConnection));
+            services.AddDbContext<DataContext>(option => option.UseMySql(appSettings.DefaultConnection, b=>b.MigrationsAssembly("quiz.api")));
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepositoryImpl>();
