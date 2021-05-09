@@ -1,0 +1,9 @@
+D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.csprojAssemblyReference.cache
+D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.AssemblyInfoInputs.cache
+D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.AssemblyInfo.cs
+D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.csproj.CoreCompileInputs.cache
+D:\QuizProject\quiz-be\quiz.entities\bin\Debug\netcoreapp3.1\quiz.entities.deps.json
+D:\QuizProject\quiz-be\quiz.entities\bin\Debug\netcoreapp3.1\quiz.entities.dll
+D:\QuizProject\quiz-be\quiz.entities\bin\Debug\netcoreapp3.1\quiz.entities.pdb
+D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.dll
+D:\QuizProject\quiz-be\quiz.entities\obj\Debug\netcoreapp3.1\quiz.entities.pdb
